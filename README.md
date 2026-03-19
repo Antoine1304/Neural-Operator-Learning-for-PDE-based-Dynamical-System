@@ -28,7 +28,7 @@ Training an FNO to approximate the evolution of an unknown dynamical system over
 * **Transfer Learning:** Demonstrated the model's adaptability to a distribution shift in initial conditions. [cite_start]By fine-tuning on only 32 trajectories, the relative $L_2$ error was drastically reduced from 15.85% (zero-shot) to 11.75%[cite: 667, 668].
 
 <p align="center">
-  <img src="assets/FNOs/loss_all2all.png" width="600">
+  <img src="assets/FNOs/loss_all2all.png" width="500">
   <br>
   <em>Figure 2: Training and validation loss function of the all to all model </em>
 </p>
@@ -39,7 +39,7 @@ Extending the classic GAOT architecture to make it robust to irregular geometrie
 **Positional Encoding & Perceiver:** Implemented continuous relative biases (CRB) and a Cross-Attention compression mechanism (Perceiver)[cite: 895, 896, 918]. [cite_start]This allowed processing 1024 latent tokens while maintaining a competitive $L_1$ error (16.44%) and reducing computational cost[cite: 925].
 
 <p align="center">
-  <img src="assets/GAOT/result_task1.png" width="600">
+  <img src="assets/GAOT/result_task1.png" width="800">
   <br>
   <em>Figure 3: Ground truth vs Gaot model prediction for strategy I  </em>
 </p>

@@ -16,7 +16,11 @@ Solving a multi-scale Poisson equation by comparing a purely supervised Data-Dri
 * **Curriculum Training:** Implemented a progressive training scheme to overcome PINN convergence failures on high-frequency targets ($K=16$).
 * **Loss Landscapes Visualization:** Generated 3D visualizations of the optimization space around local minima to analyze the stiffness and complexity of physics-informed gradients.
 
-<img src="assets/PINNs/results_grid.png" width="600">
+<p align="center">
+  <img src="assets/PINNs/results_grid.png" width="700">
+  <br>
+  <em>Figure 1: Input and Ground Truth vs Data-Driven and PINN Model Prediction </em>
+</p>
 
 ### 2. Fourier Neural Operators (FNO) and Transfer Learning
 Training an FNO to approximate the evolution of an unknown dynamical system over time.

@@ -2,7 +2,6 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Motivation
 
@@ -17,8 +16,8 @@ Traditional numerical solvers for complex physical systems (such as fluid mechan
 * [cite_start]**Curriculum Training:** Implemented a progressive training scheme to overcome PINN convergence failures on high-frequency targets ($K=16$)[cite: 329, 338, 341].
 * [cite_start]**Loss Landscapes Visualization:** Generated 3D visualizations of the optimization space around local minima to analyze the stiffness and complexity of physics-informed gradients[cite: 466, 504].
 
-![PINN Loss Landscape](assets/PINNs/loss_landscape_placeholder.png)
-*> Figure 1: 3D Loss landscapes comparing Data-Driven and PINN models across different spectral complexities. (Replace with Figure 4 from your report)*
+![PINN Loss Landscape](assets/PINNs/results_grid.png)
+*> Figure 1: 3D Loss landscapes comparing Data-Driven and PINN models across different spectral complexities.*
 
 ### 2. Fourier Neural Operators (FNO) and Transfer Learning
 Training an FNO to approximate the evolution of an unknown dynamical system over time.

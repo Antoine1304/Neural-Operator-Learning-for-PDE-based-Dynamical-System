@@ -16,7 +16,7 @@ Solving a multi-scale Poisson equation by comparing a purely supervised Data-Dri
 * **Curriculum Training:** Implemented a progressive training scheme to overcome PINN convergence failures on high-frequency targets ($K=16$).
 * **Loss Landscapes Visualization:** Generated 3D visualizations of the optimization space around local minima to analyze the stiffness and complexity of physics-informed gradients.
 
-![PINN Loss Landscape](assets/PINNs/results_grid.png)
+<img src="assets/PINNs/results_grid.png" width="600">
 
 ### 2. Fourier Neural Operators (FNO) and Transfer Learning
 Training an FNO to approximate the evolution of an unknown dynamical system over time.
@@ -48,6 +48,8 @@ Extending the classic GAOT architecture to make it robust to irregular geometrie
 │   ├── run_fno.py          
 │   └── run_gaot.py         
 └── README.md
+
+```
 
 ## Detailed Report
 
